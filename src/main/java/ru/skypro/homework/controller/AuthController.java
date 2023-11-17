@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.skypro.homework.dto.Login;
-import ru.skypro.homework.dto.Register;
-import ru.skypro.homework.service.AuthService;
 
+import ru.skypro.homework.dto.*;
+import ru.skypro.homework.service.*;
+
+/*** Rest controller for user authentication / Контроллер для аутентификации пользователя ***/
 @Slf4j
 @CrossOrigin(value = "http://localhost:3000")
 @RestController
